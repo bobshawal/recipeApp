@@ -38,7 +38,7 @@ struct RecipeListView: View {
                     List(filteredRecipes, id: \.id) { recipe in
                         NavigationLink(destination: RecipeDetailView(recipe: recipe, categories: categories)) {
                             HStack {
-                                Image(uiImage: loadImage(from: recipe.imageName ?? "") ?? UIImage())
+                                Image(uiImage: loadImage(from: recipe.imageName ?? "") ?? UIImage(named: "placeholder")!)
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)

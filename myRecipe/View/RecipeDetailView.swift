@@ -99,13 +99,11 @@ struct RecipeDetailView: View {
                         .font(.headline)
                         .foregroundColor(.gray)
                     
-                    if let imagePath = recipe.imageName {
-                        Image(uiImage: loadImage(from: imagePath) ?? UIImage())
-                            .resizable()
-                            .scaledToFit()
-                            .frame(height: 200)
-                            .cornerRadius(10)
-                    }
+                    Image(uiImage: loadImage(from: recipe.imageName ?? "") ?? UIImage(named: "placeholder")!)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 200)
+                        .cornerRadius(10)
                     
                     Text("Ingredients")
                         .font(.title2)
