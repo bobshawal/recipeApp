@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Breakfast" },
+    { "id": 2, "name": "Lunch & Dinner" },
+    { "id": 3, "name": "Vegetarian & Vegan" }, 
+    { "id": 4, "name": "Desserts & Sweets" },
+    { "id": 5, "name": "Snacks & Finger Food" },
+    { "id": 6, "name": "Drinks & Smoothies" },
+    { "id": 7, "name": "Healthy & Fitness Meals" },
+    { "id": 8, "name": "Quick & Easy Meals" },
+    { "id": 9, "name": "International Cuisine" },
+    { "id": 10, "name": "Festive & Holiday Recipes" }
+]
